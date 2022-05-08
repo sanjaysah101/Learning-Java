@@ -1,0 +1,141 @@
+Subject Code: CE421
+Subject Title: Object Oriented Programming with Java
+
+Tutorial - 1
+Introduction to Java
+--------------------------------------------------------------------------------------------------------------------------
+
+Q1. Write a program to print your profile.
+Q2. Write a program to print 1 to 10 numbers.
+Q3. Write a program to print odd numbers between 1 to 20.
+Q4. Write a program to find the simple interest and print it.
+Q5. Write a program to demonstrate the use of switch statement.
+
+Q6. WAP to input any number n and print the product of all its digits.
+	For e.g. if n=235 then print 5*3*2=30
+
+Q7. The following program contains more than 10 errors. Correct the errors and submit a working version of the program. (also include comments) The corrected version of the program should produce the following output:
+
+        public class Oops {
+            public static void main(String[] args) {
+                int x;
+                System.out.println("x is " x);
+                int x = 15.2;   // set x to 15.2
+                System.out println("x is now + x");
+                int y;   // set y to 1 more than x
+                y = int x + 1;
+                System.println("x and y are " + x + and + y);
+                System.out.println(This program surely cannot )
+                System.out.println("have any "errors" in it");
+            }
+        }
+
+        Output:
+        x is 0
+        x is now 15
+        x and y are 15 and 16
+        This program surely cannot
+        Have any “errors” in it
+
+Q8. Trace the evaluation of the following expressions, and give their resulting values. Make sure to give a value of the appropriate type (such as including a .0 at the end of a double).
+        “1”+2
+        4.0 / 2 * 9 / 2	
+        2.5 * 2 + 8 / 5.0 + 10 / 3	
+        12 / 7 * 4.4 * 2 / 4	
+        4 * 3 / 8 + 2.5 * 2	
+        (5 * 7.0 / 2 - 2.5) / 5 * 2	
+        41 % 7 * 3 / 5 + 5 / 2 * 2.5	
+        10.0 / 2/4	
+        8 / 5 + 13 / 2 / 3.0	
+        2 * 3 / 4 * 2 / 4.0 + 4.5 - 1	
+        89 % 10 / 4 * 2.0 / 5 + (1.5 + 1.0 / 2) * 2
+        1 + 0 + "0" + 5 * 10
+
+Q9. Find errors you will get and correct those errors.
+        int x=2.2;
+        String s=’s’;
+        Int product=3*5.2*4;
+        String myFirstName=’Kasey’;
+        System.out.println(myfirstname);
+
+Q10. Rearrange this code to get desired output. (Feel free to add as many of curly braces as you need)
+        x++;
+        if(x==1) {
+        System.out.println(x+” “+y);
+        Class MultiFor {
+        for(int y=4;y>2;y--){
+        for(int x=0;x<4;x++) {
+        Public static void main(String [] args){
+        Output
+        0 4
+        0 3
+        1 4
+        1 3
+        3 4
+        3 3
+
+Q11. Fill in the missing code:
+public class DooBee {
+public static void main (String[] args) {
+int x=1;
+while (x <______){
+System.out._____ ("Doo");
+System.out._____ (“Bee");
+x = x+1;
+}
+if(x==____ ){
+System.out.print("Do”);
+} 
+}
+}
+Output
+DooBeeDooBeeDo
+
+Q12. Predict the output and add comments what each line of code Is doing.
+1. class Test {
+     public static void main(String[] args) {
+        for(int i = 0; true; i++) {
+            System.out.println("Hello");
+            break;
+        }
+      }
+   }
+
+2. public class Switch{
+    final static short x = 2;
+    public static int y = 0;
+    public static void main(String [] args) 
+    {
+        for (int z=0; z < 3; z++) 
+        {
+            switch (z) 
+            {
+                case x: System.out.print("0 ");
+                case x-1: System.out.print("1 ");
+                case x-2: System.out.print("2 ");
+             }
+         }
+     }
+   }
+
+Q13. Write a program to perform following tasks.
+        Task 1 : Declare one static variable.
+        Task 2 : Take at least one input from user and store it in variable.
+        Task 3 : Perform type casting on any variable.
+        Task 4 : Add at least one control statement.
+        Task 5 : Add at least one loop.
+        Task 6 : Write comment for each important portion of code like data members’ declaration, methods, some important logic etc.
+        Task 7: Summarize above solution in your own few words to visualize the solution to the end user.
+
+
+Q14. Write a program that includes more than ten string manipulation methods such as length(),concat(),trim() .
+        Task 1 : Create a character array.
+        Task 2 : Convert character array in String.
+        Task 3 : Create a String object using literal.
+        Task 4 : Create a String object using new keyword.
+        Task 5 : Ask user to enter a name and store user’s name in String.
+        Task 6 : Compare two Strings.
+        Task 7 : Concat two Strings.
+        Task 8 : Perform any ten String manipulation methods.
+        Task 6 : Write comment for each important portion of code like data members’ declaration, methods, some important logic etc.
+	
