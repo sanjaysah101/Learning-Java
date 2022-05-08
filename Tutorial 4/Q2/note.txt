@@ -1,0 +1,9 @@
+To Run this file..
+
+compile all the file once:
+go to Q2 directory:
+write in cmd:
+    javac -d . files/*.java    (This will create mypackage directory inside Q2)
+
+To run this file:
+    java mypackage.B
